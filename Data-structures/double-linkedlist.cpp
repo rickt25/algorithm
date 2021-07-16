@@ -3,7 +3,7 @@
 
 struct Node{
     int value;
-    struct Node *next;
+    Node *next, *prev;
 } *head, *tail;
 
 Node* createNode(int input){
